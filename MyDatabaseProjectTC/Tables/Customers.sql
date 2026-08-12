@@ -5,5 +5,6 @@ CREATE TABLE [dbo].[Customers] (
     [LastName] NVARCHAR(50) NOT NULL,
     [Email] NVARCHAR(100) NOT NULL UNIQUE,
     [Locaton] NVARCHAR(100) NULL,
-    [Loyalty_Tier] NVARCHAR(50) NULL
+    [Loyalty_Tier] NVARCHAR(50) NULL,
+    [PhoneNumber] NVARCHAR(15) NULL
 )
